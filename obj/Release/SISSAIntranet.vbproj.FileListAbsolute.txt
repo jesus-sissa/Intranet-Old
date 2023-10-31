@@ -1,0 +1,83 @@
+C:\SIAC\SISSAIntranet\bin\SISSAIntranet.dll
+C:\SIAC\SISSAIntranet\bin\SISSAIntranet.pdb
+C:\SIAC\SISSAIntranet\bin\SISSAIntranet.xml
+C:\SIAC\SISSAIntranet\bin\AjaxControlToolkit.dll
+C:\SIAC\SISSAIntranet\bin\AjaxControlToolkit.pdb
+C:\SIAC\SISSAIntranet\bin\ar\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\bin\cs\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\bin\de\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\bin\es\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\bin\fr\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\bin\he\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\bin\hi\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\bin\it\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\bin\ja\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\bin\ko\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\bin\nl\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\bin\pt\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\bin\ru\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\SIAC\SISSAIntranet\obj\Release\ResolveAssemblyReference.cache
+C:\SIAC\SISSAIntranet\obj\Release\SISSAIntranet.Resources.resources
+C:\SIAC\SISSAIntranet\obj\Release\SISSAIntranet.vbproj.GenerateResource.Cache
+C:\SIAC\SISSAIntranet\obj\Release\SISSAIntranet.dll
+C:\SIAC\SISSAIntranet\obj\Release\SISSAIntranet.xml
+C:\SIAC\SISSAIntranet\obj\Release\SISSAIntranet.pdb
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\SISSAIntranet.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\SISSAIntranet.pdb
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\SISSAIntranet.xml
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\AjaxControlToolkit.pdb
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\obj\Release\ResolveAssemblyReference.cache
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\obj\Release\SISSAIntranet.Resources.resources
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\obj\Release\SISSAIntranet.vbproj.GenerateResource.Cache
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\obj\Release\SISSAIntranet.dll
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\obj\Release\SISSAIntranet.xml
+C:\Users\carlos.bustillo\Desktop\JNR\SISSAIntranet\obj\Release\SISSAIntranet.pdb
+C:\SIAC\SIAC Moviles\Intranet\Intranet_ProyectoWeb\Intranet_ProyectoWeb\bin\SISSAIntranet.dll
+C:\SIAC\SIAC Moviles\Intranet\Intranet_ProyectoWeb\Intranet_ProyectoWeb\bin\SISSAIntranet.pdb
+C:\SIAC\SIAC Moviles\Intranet\Intranet_ProyectoWeb\Intranet_ProyectoWeb\bin\SISSAIntranet.xml
+C:\SIAC\SIAC Moviles\Intranet\Intranet_ProyectoWeb\Intranet_ProyectoWeb\obj\Release\ResolveAssemblyReference.cache
+C:\SIAC\SIAC Moviles\Intranet\Intranet_ProyectoWeb\Intranet_ProyectoWeb\obj\Release\SISSAIntranet.Resources.resources
+C:\SIAC\SIAC Moviles\Intranet\Intranet_ProyectoWeb\Intranet_ProyectoWeb\obj\Release\SISSAIntranet.vbproj.GenerateResource.Cache
+C:\SIAC\SIAC Moviles\Intranet\Intranet_ProyectoWeb\Intranet_ProyectoWeb\obj\Release\SISSAIntranet.dll
+C:\SIAC\SIAC Moviles\Intranet\Intranet_ProyectoWeb\Intranet_ProyectoWeb\obj\Release\SISSAIntranet.xml
+C:\SIAC\SIAC Moviles\Intranet\Intranet_ProyectoWeb\Intranet_ProyectoWeb\obj\Release\SISSAIntranet.pdb
+C:\SIAC\Intranet_ProyectoWeb\bin\SISSAIntranet.dll
+C:\SIAC\Intranet_ProyectoWeb\bin\SISSAIntranet.pdb
+C:\SIAC\Intranet_ProyectoWeb\bin\SISSAIntranet.xml
+C:\SIAC\Intranet_ProyectoWeb\bin\SISSAIntranet.dll.CodeAnalysisLog.xml
+C:\SIAC\Intranet_ProyectoWeb\bin\SISSAIntranet.dll.lastcodeanalysissucceeded
+C:\SIAC\Intranet_ProyectoWeb\obj\Release\SISSAIntranet.Resources.resources
+C:\SIAC\Intranet_ProyectoWeb\obj\Release\SISSAIntranet.vbproj.GenerateResource.Cache
+C:\SIAC\Intranet_ProyectoWeb\obj\Release\SISSAIntranet.dll
+C:\SIAC\Intranet_ProyectoWeb\obj\Release\SISSAIntranet.xml
+C:\SIAC\Intranet_ProyectoWeb\obj\Release\SISSAIntranet.pdb
+C:\SIAC\Intranet_ProyectoWeb2012\bin\SISSAIntranet.dll
+C:\SIAC\Intranet_ProyectoWeb2012\bin\SISSAIntranet.pdb
+C:\SIAC\Intranet_ProyectoWeb2012\bin\SISSAIntranet.xml
+C:\SIAC\Intranet_ProyectoWeb2012\bin\SISSAIntranet.dll.CodeAnalysisLog.xml
+C:\SIAC\Intranet_ProyectoWeb2012\bin\SISSAIntranet.dll.lastcodeanalysissucceeded
+C:\SIAC\Intranet_ProyectoWeb2012\obj\Release\SISSAIntranet.vbprojResolveAssemblyReference.cache
+C:\SIAC\Intranet_ProyectoWeb2012\obj\Release\SISSAIntranet.Resources.resources
+C:\SIAC\Intranet_ProyectoWeb2012\obj\Release\SISSAIntranet.vbproj.GenerateResource.Cache
+C:\SIAC\Intranet_ProyectoWeb2012\obj\Release\SISSAIntranet.dll
+C:\SIAC\Intranet_ProyectoWeb2012\obj\Release\SISSAIntranet.xml
+C:\SIAC\Intranet_ProyectoWeb2012\obj\Release\SISSAIntranet.pdb

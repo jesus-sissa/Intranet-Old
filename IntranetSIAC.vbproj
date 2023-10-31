@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5869D2D0-33CE-428B-844F-4A7F611AFB75}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>IntranetSIAC</RootNamespace>
+    <AssemblyName>IntranetSIAC</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>IntranetSIAC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>IntranetSIAC.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.60623.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actualizaciones.aspx.designer.vb">
+      <DependentUpon>Actualizaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Actualizaciones.aspx.vb">
+      <DependentUpon>Actualizaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Avisos_Baja.aspx.designer.vb">
+      <DependentUpon>Avisos_Baja.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Avisos_Baja.aspx.vb">
+      <DependentUpon>Avisos_Baja.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CartaAccesoGenerar.aspx.designer.vb">
+      <DependentUpon>CartaAccesoGenerar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CartaAccesoGenerar.aspx.vb">
+      <DependentUpon>CartaAccesoGenerar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CartasAccesoValidar.aspx.designer.vb">
+      <DependentUpon>CartasAccesoValidar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaAvisosBaja.aspx.designer.vb">
+      <DependentUpon>ConsultaAvisosBaja.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaAvisosBaja.aspx.vb">
+      <DependentUpon>ConsultaAvisosBaja.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ConsultaChecador.aspx.designer.vb">
+      <DependentUpon>ConsultaChecador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaChecador.aspx.vb">
+      <DependentUpon>ConsultaChecador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CursosProgramados.aspx.designer.vb">
+      <DependentUpon>CursosProgramados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustodiasTemporales_Consulta.aspx.designer.vb">
+      <DependentUpon>CustodiasTemporales_Consulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustodiasTemporales_Consulta.aspx.vb">
+      <DependentUpon>CustodiasTemporales_Consulta.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados.aspx.designer.vb">
+      <DependentUpon>Empleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EnviarMensajes.aspx.designer.vb">
+      <DependentUpon>EnviarMensajes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FirmaService.vb">
+      <DependentUpon>FirmaService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Foro_RIA.aspx.designer.vb">
+      <DependentUpon>Foro_RIA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Insumos.aspx.designer.vb">
+      <DependentUpon>Insumos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jornadas.aspx.designer.vb">
+      <DependentUpon>Jornadas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JornadasConsulta.aspx.designer.vb">
+      <DependentUpon>JornadasConsulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginContra.aspx.designer.vb">
+      <DependentUpon>LoginContra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Material.aspx.designer.vb">
+      <DependentUpon>Material.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Material.aspx.vb">
+      <DependentUpon>Material.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Mensaje.aspx.designer.vb">
+      <DependentUpon>Mensaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mensaje.aspx.vb">
+      <DependentUpon>Mensaje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MensajesAdmin.aspx.designer.vb">
+      <DependentUpon>MensajesAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mostar_Fotos.aspx.designer.vb">
+      <DependentUpon>Mostar_Fotos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarImagenes.aspx.designer.vb">
+      <DependentUpon>MostrarImagenes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarMiniImagen.aspx.designer.vb">
+      <DependentUpon>MostrarMiniImagen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarMiniImagen.aspx.vb">
+      <DependentUpon>MostrarMiniImagen.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MP_Principal.master.designer.vb">
+      <DependentUpon>MP_Principal.master</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoIngreso.aspx.designer.vb">
+      <DependentUpon>NuevoIngreso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoIngreso.aspx.vb">
+      <DependentUpon>NuevoIngreso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Old_App_Code\BasePage.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Old_App_Code\Cn_Datos.vb" />
+    <Compile Include="Old_App_Code\Cn_Encripta.vb" />
+    <Compile Include="Old_App_Code\Cn_Login.vb" />
+    <Compile Include="Old_App_Code\Cn_Mail.vb" />
+    <Compile Include="Old_App_Code\Cn_Soporte.vb" />
+    <Compile Include="Old_App_Code\FuncionesGlobales.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CartasAccesoValidar.aspx.vb">
+      <DependentUpon>CartasAccesoValidar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CursosProgramados.aspx.vb">
+      <DependentUpon>CursosProgramados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Empleados.aspx.vb">
+      <DependentUpon>Empleados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnviarMensajes.aspx.vb">
+      <DependentUpon>EnviarMensajes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Foro_RIA.aspx.vb">
+      <DependentUpon>Foro_RIA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Insumos.aspx.vb">
+      <DependentUpon>Insumos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jornadas.aspx.vb">
+      <DependentUpon>Jornadas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JornadasConsulta.aspx.vb">
+      <DependentUpon>JornadasConsulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginContra.aspx.vb">
+      <DependentUpon>LoginContra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MensajesAdmin.aspx.vb">
+      <DependentUpon>MensajesAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mostar_Fotos.aspx.vb">
+      <DependentUpon>Mostar_Fotos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MostrarImagenes.aspx.vb">
+      <DependentUpon>MostrarImagenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MP_Principal.master.vb">
+      <DependentUpon>MP_Principal.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PermisosSolicitud.aspx.designer.vb">
+      <DependentUpon>PermisosSolicitud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PermisosSolicitud.aspx.vb">
+      <DependentUpon>PermisosSolicitud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlantillaLaboral.aspx.designer.vb">
+      <DependentUpon>PlantillaLaboral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlantillaLaboral.aspx.vb">
+      <DependentUpon>PlantillaLaboral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProspectosValida.aspx.designer.vb">
+      <DependentUpon>ProspectosValida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProspectosValida.aspx.vb">
+      <DependentUpon>ProspectosValida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recepcion_CusTemp.aspx.designer.vb">
+      <DependentUpon>Recepcion_CusTemp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Recepcion_CusTemp.aspx.vb">
+      <DependentUpon>Recepcion_CusTemp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistroAsistencia.aspx.designer.vb">
+      <DependentUpon>RegistroAsistencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroAsistencia.aspx.vb">
+      <DependentUpon>RegistroAsistencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistroFaltas.aspx.designer.vb">
+      <DependentUpon>RegistroFaltas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroFaltas.aspx.vb">
+      <DependentUpon>RegistroFaltas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reporte.aspx.designer.vb">
+      <DependentUpon>Reporte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte.aspx.vb">
+      <DependentUpon>Reporte.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="RIA.aspx.designer.vb">
+      <DependentUpon>RIA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RIA.aspx.vb">
+      <DependentUpon>RIA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RIAConsulta.aspx.designer.vb">
+      <DependentUpon>RIAConsulta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RIAConsulta.aspx.vb">
+      <DependentUpon>RIAConsulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RIASeguimiento.aspx.designer.vb">
+      <DependentUpon>RIASeguimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RIASeguimiento.aspx.vb">
+      <DependentUpon>RIASeguimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="UserControls\Alerta.ascx.designer.vb">
+      <DependentUpon>Alerta.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Alerta.ascx.vb">
+      <DependentUpon>Alerta.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WUC_Foro_RIA.ascx.designer.vb">
+      <DependentUpon>WUC_Foro_RIA.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\WUC_Foro_RIA.ascx.vb">
+      <DependentUpon>WUC_Foro_RIA.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuarios.aspx.designer.vb">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios.aspx.vb">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsuariosHorarios.aspx.designer.vb">
+      <DependentUpon>UsuariosHorarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsuariosHorarios.aspx.vb">
+      <DependentUpon>UsuariosHorarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsuariosPrivilegios.aspx.designer.vb">
+      <DependentUpon>UsuariosPrivilegios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsuariosPrivilegios.aspx.vb">
+      <DependentUpon>UsuariosPrivilegios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerMensajes.aspx.designer.vb">
+      <DependentUpon>VerMensajes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerMensajes.aspx.vb">
+      <DependentUpon>VerMensajes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Azul\Azul.css" />
+    <Content Include="App_Themes\Dorado\Dorado.css" />
+    <Content Include="App_Themes\Dorado\Dorado.skin" />
+    <Content Include="App_Themes\Azul\Azul.skin" />
+    <Content Include="App_Themes\Guinda\Guinda.css" />
+    <Content Include="App_Themes\Negro\Negro.css" />
+    <Content Include="App_Themes\Negro\Negro.skin" />
+    <Content Include="App_Themes\Verde\Verde.css" />
+    <Content Include="App_Themes\Verde\Verde.skin" />
+    <Content Include="App_Themes\Guinda\Guinda.skin" />
+    <None Include="My Project\PublishProfiles\IntranetSIAC1.pubxml" />
+    <Content Include="Avisos_Baja.aspx" />
+    <Content Include="ConsultaAvisosBaja.aspx" />
+    <Content Include="ErrorPersonalizado.htm" />
+    <Content Include="Imagenes\Advertencia2.png" />
+    <Content Include="Imagenes\AvisoBaja.png" />
+    <Content Include="Imagenes\fav.png" />
+    <Content Include="Imagenes\li.jpg" />
+    <Content Include="Login.aspx" />
+    <Content Include="Imagenes\bg.png" />
+    <Content Include="Imagenes\claveExpira.png" />
+    <Content Include="Material.aspx" />
+    <Content Include="MostrarImagenes.ashx" />
+    <Content Include="MP_Principal.master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Querys\WEB_Usuarios_GetPermisos.sql" />
+    <None Include="UserControls\wuc_RIAMoviles.ascx.exclude" />
+    <None Include="UserControls\wuc_RIAMoviles.ascx.vb.exclude" />
+    <Content Include="Usuarios.aspx" />
+    <Content Include="UsuariosHorarios.aspx" />
+    <Content Include="UsuariosPrivilegios.aspx" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Actualizaciones.aspx" />
+    <Content Include="App_Data\ASPNETDB.MDF">
+    </Content>
+    <Content Include="App_Data\aspnetdb_log.ldf">
+      <DependentUpon>ASPNETDB.MDF</DependentUpon>
+    </Content>
+    <Content Include="CartaAccesoGenerar.aspx" />
+    <Content Include="CartasAccesoValidar.aspx" />
+    <Content Include="ConsultaChecador.aspx" />
+    <Content Include="CursosProgramados.aspx" />
+    <Content Include="CustodiasTemporales_Consulta.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Empleados.aspx" />
+    <Content Include="EnviarMensajes.aspx" />
+    <Content Include="FirmaService.asmx" />
+    <Content Include="Foro_RIA.aspx" />
+    <Content Include="GeneralErrorPage.htm" />
+    <Content Include="Imagenes\1rightarrow.png" />
+    <Content Include="Imagenes\1rightarrow1.png" />
+    <Content Include="Imagenes\BloquearUsuarios.png" />
+    <Content Include="Imagenes\calendar.png" />
+    <Content Include="Imagenes\cancel.gif" />
+    <Content Include="Imagenes\Cerrar.png" />
+    <Content Include="Imagenes\downarrow.png" />
+    <Content Include="Imagenes\downarrow2.gif" />
+    <Content Include="Imagenes\edit.gif" />
+    <Content Include="Imagenes\EliminarEmpleado.png" />
+    <Content Include="Imagenes\grd_alt.png" />
+    <Content Include="Imagenes\grd_head.png" />
+    <Content Include="Imagenes\grd_pgr.png" />
+    <Content Include="Imagenes\handtoright.png" />
+    <Content Include="Imagenes\HoraNo.png" />
+    <Content Include="Imagenes\Img_Progres.gif" />
+    <Content Include="Imagenes\login.jpg" />
+    <Content Include="Imagenes\LogoPictureBox.Image.png" />
+    <Content Include="Imagenes\LogoSIAC.jpg" />
+    <Content Include="Imagenes\mail_abierto.png" />
+    <Content Include="Imagenes\mail_enviado.png" />
+    <Content Include="Imagenes\mail_recibido.png" />
+    <Content Include="Imagenes\menu.jpg" />
+    <Content Include="Imagenes\minus.gif" />
+    <Content Include="Imagenes\NoFoto.jpg" />
+    <Content Include="Imagenes\NoFoto2.jpg" />
+    <Content Include="Imagenes\NoFoto3.jpg" />
+    <Content Include="Imagenes\NoFoto4.jpg" />
+    <Content Include="Imagenes\pict01.jpg" />
+    <Content Include="Imagenes\plus.gif" />
+    <Content Include="Imagenes\ReiniciarClave16x16.png" />
+    <Content Include="Imagenes\ReiniciarClave.png" />
+    <Content Include="Imagenes\save.gif" />
+    <Content Include="Imagenes\soporte.jpg" />
+    <Content Include="Imagenes\unlock.png" />
+    <Content Include="Insumos.aspx" />
+    <Content Include="Jornadas.aspx" />
+    <Content Include="JornadasConsulta.aspx" />
+    <Content Include="LoginContra.aspx" />
+    <Content Include="Mensaje.aspx" />
+    <Content Include="MensajesAdmin.aspx" />
+    <Content Include="Mostar_Fotos.aspx" />
+    <Content Include="MostrarImagenes.aspx" />
+    <Content Include="MostrarMiniImagen.aspx" />
+    <Content Include="NuevoIngreso.aspx" />
+    <Content Include="PermisosSolicitud.aspx" />
+    <Content Include="PlantillaLaboral.aspx" />
+    <Content Include="ProspectosValida.aspx" />
+    <Content Include="Recepcion_CusTemp.aspx" />
+    <Content Include="RegistroAsistencia.aspx" />
+    <Content Include="RegistroFaltas.aspx" />
+    <Content Include="Reporte.aspx" />
+    <Content Include="RIA.aspx" />
+    <Content Include="RIAConsulta.aspx" />
+    <Content Include="RIASeguimiento.aspx" />
+    <Content Include="Scripts\ddaccordion.js" />
+    <Content Include="Scripts\Varios.js" />
+    <Content Include="updatelog.txt" />
+    <Content Include="UserControls\Alerta.ascx" />
+    <Content Include="UserControls\WUC_Foro_RIA.ascx" />
+    <Content Include="VerMensajes.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3872</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

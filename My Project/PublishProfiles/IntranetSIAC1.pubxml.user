@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo es utilizado por el proceso de paquete/publicación de nuestro proyecto Web. Puede personalizar el comportamiento de este proceso
+editando este archivo MSBuild. Para conocer más acerca de esto, visite http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\PublicacionTemporal\Intranet</_PublishTargetUrl>
+    <History>True|2022-09-10T16:37:55.9949296Z;True|2022-02-16T18:23:06.2498021-06:00;True|2022-02-16T18:17:26.2139686-06:00;False|2022-02-16T18:14:56.3281485-06:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Actualizaciones.aspx">
+      <publishTime>02/10/2015 17:21:49</publishTime>
+    </File>
+    <File Include="App_Data/ASPNETDB.MDF">
+      <publishTime>01/05/2017 17:57:18</publishTime>
+    </File>
+    <File Include="App_Data/aspnetdb_log.ldf">
+      <publishTime>01/05/2017 17:57:18</publishTime>
+    </File>
+    <File Include="App_Themes/Azul/Azul.css">
+      <publishTime>01/14/2017 11:44:58</publishTime>
+    </File>
+    <File Include="App_Themes/Azul/Azul.skin">
+      <publishTime>01/26/2015 10:25:50</publishTime>
+    </File>
+    <File Include="App_Themes/Dorado/Dorado.css">
+      <publishTime>08/02/2022 10:50:16</publishTime>
+    </File>
+    <File Include="App_Themes/Dorado/Dorado.skin">
+      <publishTime>01/26/2015 10:23:13</publishTime>
+    </File>
+    <File Include="App_Themes/Guinda/Guinda.css">
+      <publishTime>01/14/2017 11:44:58</publishTime>
+    </File>
+    <File Include="App_Themes/Guinda/Guinda.skin">
+      <publishTime>01/26/2015 10:26:58</publishTime>
+    </File>
+    <File Include="App_Themes/Negro/Negro.css">
+      <publishTime>01/14/2017 11:44:58</publishTime>
+    </File>
+    <File Include="App_Themes/Negro/Negro.skin">
+      <publishTime>01/26/2015 10:26:10</publishTime>
+    </File>
+    <File Include="App_Themes/Tema1/Imagenes/correcto.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="App_Themes/Tema1/Imagenes/correcto_header.gif">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="App_Themes/Tema1/Imagenes/dialog_close.gif">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="App_Themes/Tema1/Imagenes/error_bg.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="App_Themes/Tema1/Imagenes/error_header.gif">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="App_Themes/Tema1/Imagenes/warning.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="App_Themes/Tema1/Imagenes/warning_header.gif">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="App_Themes/Tema1/Mensajes.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="App_Themes/Verde/Verde.css">
+      <publishTime>01/14/2017 11:44:58</publishTime>
+    </File>
+    <File Include="App_Themes/Verde/Verde.skin">
+      <publishTime>01/26/2015 10:26:31</publishTime>
+    </File>
+    <File Include="Avisos_Baja.aspx">
+      <publishTime>08/02/2022 10:24:20</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>07/09/2013 12:05:51</publishTime>
+    </File>
+    <File Include="bin/IntranetSIAC.dll">
+      <publishTime>09/10/2022 11:37:37</publishTime>
+    </File>
+    <File Include="bin/IntranetSIAC.pdb">
+      <publishTime>09/10/2022 11:37:37</publishTime>
+    </File>
+    <File Include="bin/IntranetSIAC.xml">
+      <publishTime>09/10/2022 11:37:37</publishTime>
+    </File>
+    <File Include="bin/SISSAIntranet.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/SISSAIntranet.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/SISSAIntranet.xml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="CartaAccesoGenerar.aspx">
+      <publishTime>08/02/2022 10:25:07</publishTime>
+    </File>
+    <File Include="CartasAccesoValidar.aspx">
+      <publishTime>08/02/2022 10:25:39</publishTime>
+    </File>
+    <File Include="ConsultaAvisosBaja.aspx">
+      <publishTime>08/02/2022 10:26:16</publishTime>
+    </File>
+    <File Include="ConsultaChecador.aspx">
+      <publishTime>08/02/2022 10:26:56</publishTime>
+    </File>
+    <File Include="CursosProgramados.aspx">
+      <publishTime>08/02/2022 10:27:25</publishTime>
+    </File>
+    <File Include="CustodiasTemporales_Consulta.aspx">
+      <publishTime>08/02/2022 10:27:52</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>01/06/2017 09:33:33</publishTime>
+    </File>
+    <File Include="Empleados.aspx">
+      <publishTime>08/02/2022 10:29:02</publishTime>
+    </File>
+    <File Include="EnviarMensajes.aspx">
+      <publishTime>08/02/2022 10:29:42</publishTime>
+    </File>
+    <File Include="ErrorPersonalizado.htm">
+      <publishTime>01/05/2017 11:09:09</publishTime>
+    </File>
+    <File Include="Estilos/StyleSheet.css">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="FirmaService.asmx">
+      <publishTime>12/19/2014 12:37:45</publishTime>
+    </File>
+    <File Include="Foro_RIA.aspx">
+      <publishTime>01/04/2017 17:44:26</publishTime>
+    </File>
+    <File Include="frm_Login.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="GeneralErrorPage.htm">
+      <publishTime>01/26/2015 15:38:41</publishTime>
+    </File>
+    <File Include="Imagenes/1rightarrow.png">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/1rightarrow1.png">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/Advertencia2.png">
+      <publishTime>06/22/2016 16:35:34</publishTime>
+    </File>
+    <File Include="Imagenes/AvisoBaja.png">
+      <publishTime>08/10/2015 10:06:21</publishTime>
+    </File>
+    <File Include="Imagenes/bg.png">
+      <publishTime>06/01/2011 19:05:08</publishTime>
+    </File>
+    <File Include="Imagenes/BloquearUsuarios.png">
+      <publishTime>12/20/2010 15:34:53</publishTime>
+    </File>
+    <File Include="Imagenes/calendar.png">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/cancel.gif">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/Cerrar.png">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/claveExpira.png">
+      <publishTime>12/18/2014 18:01:08</publishTime>
+    </File>
+    <File Include="Imagenes/downarrow.png">
+      <publishTime>01/13/2012 12:13:24</publishTime>
+    </File>
+    <File Include="Imagenes/downarrow2.gif">
+      <publishTime>01/13/2012 12:57:40</publishTime>
+    </File>
+    <File Include="Imagenes/edit.gif">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/EliminarEmpleado.png">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/fav.png">
+      <publishTime>11/15/2016 13:02:13</publishTime>
+    </File>
+    <File Include="Imagenes/grd_alt.png">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/grd_head.png">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/grd_pgr.png">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/handtoright.png">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/HoraNo.png">
+      <publishTime>07/04/2006 21:35:32</publishTime>
+    </File>
+    <File Include="Imagenes/Img_Progres.gif">
+      <publishTime>03/20/2007 14:52:12</publishTime>
+    </File>
+    <File Include="Imagenes/li.jpg">
+      <publishTime>11/15/2016 12:43:24</publishTime>
+    </File>
+    <File Include="Imagenes/login.jpg">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/LogoPictureBox.Image.png">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/LogoSIAC.jpg">
+      <publishTime>10/15/2010 17:52:20</publishTime>
+    </File>
+    <File Include="Imagenes/mail_abierto.png">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/mail_enviado.png">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/mail_recibido.png">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/menu.jpg">
+      <publishTime>12/07/2011 18:14:31</publishTime>
+    </File>
+    <File Include="Imagenes/minus.gif">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/NoFoto.jpg">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/NoFoto2.jpg">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/NoFoto3.jpg">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/NoFoto4.jpg">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/pict01.jpg">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/plus.gif">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/ReiniciarClave.png">
+      <publishTime>12/20/2010 15:37:00</publishTime>
+    </File>
+    <File Include="Imagenes/ReiniciarClave16x16.png">
+      <publishTime>10/12/2012 11:32:16</publishTime>
+    </File>
+    <File Include="Imagenes/save.gif">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/soporte.jpg">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Imagenes/unlock.png">
+      <publishTime>10/12/2012 11:29:52</publishTime>
+    </File>
+    <File Include="Insumos.aspx">
+      <publishTime>08/02/2022 10:31:09</publishTime>
+    </File>
+    <File Include="Jornadas.aspx">
+      <publishTime>08/02/2022 10:32:36</publishTime>
+    </File>
+    <File Include="JornadasConsulta.aspx">
+      <publishTime>08/02/2022 10:32:55</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>01/16/2017 12:28:08</publishTime>
+    </File>
+    <File Include="LoginContra.aspx">
+      <publishTime>01/17/2017 08:54:12</publishTime>
+    </File>
+    <File Include="Material.aspx">
+      <publishTime>09/10/2022 11:34:14</publishTime>
+    </File>
+    <File Include="Mensaje.aspx">
+      <publishTime>12/19/2014 12:00:04</publishTime>
+    </File>
+    <File Include="MensajesAdmin.aspx">
+      <publishTime>08/02/2022 10:35:33</publishTime>
+    </File>
+    <File Include="Mostar_Fotos.aspx">
+      <publishTime>12/19/2014 12:00:04</publishTime>
+    </File>
+    <File Include="MostrarImagenes.ashx">
+      <publishTime>12/19/2014 12:36:57</publishTime>
+    </File>
+    <File Include="MostrarImagenes.aspx">
+      <publishTime>12/19/2014 12:00:04</publishTime>
+    </File>
+    <File Include="MostrarMiniImagen.aspx">
+      <publishTime>12/19/2014 12:00:04</publishTime>
+    </File>
+    <File Include="MP_Principal.master">
+      <publishTime>01/16/2017 12:28:08</publishTime>
+    </File>
+    <File Include="NuevoIngreso.aspx">
+      <publishTime>08/02/2022 10:37:15</publishTime>
+    </File>
+    <File Include="PermisosSolicitud.aspx">
+      <publishTime>08/02/2022 10:37:38</publishTime>
+    </File>
+    <File Include="PlantillaLaboral.aspx">
+      <publishTime>08/02/2022 10:39:10</publishTime>
+    </File>
+    <File Include="ProspectosValida.aspx">
+      <publishTime>08/02/2022 10:38:28</publishTime>
+    </File>
+    <File Include="Recepcion_CusTemp.aspx">
+      <publishTime>08/02/2022 10:40:12</publishTime>
+    </File>
+    <File Include="RegistroAsistencia.aspx">
+      <publishTime>08/02/2022 10:41:11</publishTime>
+    </File>
+    <File Include="RegistroFaltas.aspx">
+      <publishTime>08/02/2022 10:41:45</publishTime>
+    </File>
+    <File Include="Reporte.aspx">
+      <publishTime>08/02/2022 10:42:08</publishTime>
+    </File>
+    <File Include="RIA.aspx">
+      <publishTime>08/02/2022 10:43:51</publishTime>
+    </File>
+    <File Include="RIAConsulta.aspx">
+      <publishTime>08/02/2022 10:44:34</publishTime>
+    </File>
+    <File Include="RIASeguimiento.aspx">
+      <publishTime>08/02/2022 10:49:47</publishTime>
+    </File>
+    <File Include="Scripts/ddaccordion.js">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="Scripts/Varios.js">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="updatelog.txt">
+      <publishTime>11/28/2011 14:49:20</publishTime>
+    </File>
+    <File Include="UserControls/Alerta.ascx">
+      <publishTime>01/04/2017 16:18:29</publishTime>
+    </File>
+    <File Include="UserControls/WUC_Foro_RIA.ascx">
+      <publishTime>01/26/2015 11:45:35</publishTime>
+    </File>
+    <File Include="Usuarios.aspx">
+      <publishTime>08/10/2022 11:47:27</publishTime>
+    </File>
+    <File Include="UsuariosHorarios.aspx">
+      <publishTime>08/02/2022 10:46:01</publishTime>
+    </File>
+    <File Include="UsuariosPrivilegios.aspx">
+      <publishTime>08/10/2022 12:04:37</publishTime>
+    </File>
+    <File Include="VerMensajes.aspx">
+      <publishTime>08/02/2022 10:49:44</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>09/05/2022 12:16:00</publishTime>
+    </File>
+    <File Include="Web.sitemap">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

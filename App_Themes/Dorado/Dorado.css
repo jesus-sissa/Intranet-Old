@@ -1,0 +1,663 @@
+﻿
+body
+{
+	line-height: 18px; /*04/01/2017 , fondo antes #f5f0e7*/
+    background-color:#eee5d5; 
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.Encabezado_MP
+{
+    width: 100%;
+    text-align: center;
+    vertical-align: text-bottom;
+    z-index: 9999;
+}
+
+.LabelINTRANET
+{
+    color: #000000;
+    vertical-align: middle;
+    width: 250px;
+    font-family:Stencil;
+    font-size:30px;
+    text-align: left;
+}
+
+.labelNombrePagina
+{
+    color:#000000;
+    font-weight:bold;
+    font-family:Verdana, Arial, helvetica, MS Sans-Serif;
+    font-size: 16px;
+    text-align:center;
+}
+.LabelUsuario
+{
+  color: #000000;
+    font-family: Verdana, Arial, helvetica, MS Sans-Serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    width: 70px;
+    text-align: right;
+    letter-spacing: normal;
+}
+
+.NombreUsuario
+{
+    color: #000000;
+    font-weight: bold;
+    font-family: Verdana, Arial, helvetica, MS Sans-Serif;
+    font-size: 12px;
+    text-align: left;
+    width: 320px;
+    letter-spacing: normal;
+}
+
+.MenuDiv
+{
+    background-color: #867044;
+    float: left; /* color y estilo al div menu*/
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 12px;
+    width: 80%;
+}
+
+.MenuPrincipal_MP
+{
+    font-family: Arial,Verdana;
+    font-size: 9pt;
+    font-weight: bold;
+    color: #FFFFFF; /* Color Fuente Menús*/
+    text-align: center;
+    width: auto;
+    height: 22px; /*no mover alto*/
+    margin-left: 15px;
+    padding-top: 12px;
+}
+
+    .MenuPrincipal_MP a:hover
+    {
+        text-decoration: none;
+        font-weight: bold;
+        cursor: default;
+        background-color: none;
+        color: #FFFFFF;
+    }
+
+.SubMenus
+{
+    font-family: Arial,Verdana;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #000000; /* Color Fuente SubMenus*/ 
+    background-color: #FFFFFF;
+    text-align: left;
+    width: 170px;
+    Height: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom:1px solid #867044;
+
+}
+
+   .SubMenus:hover
+    {
+        text-decoration: none;
+        background-color: #ebd195;
+    }
+
+
+.ContenedorMenuDiv_MP
+{
+    background:  #867044;
+    width: 100%;
+    height: 35px;
+}
+
+.CerrarsesionDiv
+{
+    width: 19%;
+    height: 30px;
+    float: right;
+    text-align: left;
+    color:#FFFFFF;
+ }
+
+    .CerrarsesionDiv a
+    {
+        color: #FFFFFF;
+    }
+
+.statusLogin
+{
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial;
+    font-size:9pt;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+    a:hover
+    {
+        text-decoration: underline;
+    }
+
+.ContenedorPrincipal_MP
+{
+    color: #000;
+    display:block;
+    height: 740px;
+    width: 100%;
+    z-index: 1;
+    font-family: Verdana,Arial;
+    font-size: small;
+}
+
+/*--codigo hacia arriba ya depurado----*/
+
+#divEnca
+{
+    background-color: #efefef;
+    padding: .3em 1em .4em 1em;
+    border-bottom: 1px solid #7088b7;
+    border-top: 1px solid #7088b7;
+    color: #000000;
+    display: block;
+    font-family: Verdana;
+    font-size: small;
+}
+
+.backgroundColor
+{
+    background-color: Gray;
+    /*-webkit-filter:blur(3px);*/ 
+    -webkit-opacity: 0.7;
+    -ms-opacity: 0.7;
+    -moz-filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+}
+
+.tablaSISSA
+{
+    font-family: Verdana, Arial, helvetica, MS Sans-Serif;
+    padding: 0 0 0 0;
+}
+.tablaSISSA1
+{
+    font-family: verdana, Arial, helvetica, ms Sans-Serif;
+    font-size: x-small;
+    padding: 0 10px 0 0;
+}
+.tablaSISSA2
+{
+    font-family: Verdana, Arial, helvetica, MS Sans-Serif;
+    font-size: x-small;
+    text-align: right;
+}
+.tablaSISSA3
+{
+    font-family: verdana, Arial, helvetica, ms Sans-Serif;
+    font-size: x-small;
+    padding: 0 0 0 0;
+}
+
+.lblUsuario
+{
+    font-weight: bold;
+    color: #7088b7;
+}
+
+.label14
+{
+    font-family: verdana, Arial, helvetica, ms Sans-Serif;
+    font-size: x-small;
+    height: 14px;
+}
+.hiddenCol
+{
+    display: none;
+    visibility: hidden;
+}
+.DropDownList18
+{
+    font-family: verdana, Arial, helvetica, ms Sans-Serif;
+    font-size: x-small;
+    height: 18px;
+}
+.textbox1
+{
+    font-family: verdana, Arial, helvetica, ms Sans-Serif;
+    font-size: x-small;
+    height: 14px;
+}
+.Textbox14
+{
+    font-family: verdana, Arial, helvetica, ms Sans-Serif;
+    font-size: x-small;
+    height: 14px;
+}
+.Textbox18
+{
+    font-family: verdana, Arial, helvetica, ms Sans-Serif;
+    font-size: x-small;
+    height: 18px;
+}
+.celdaMargenDer10
+{
+    text-align: left;
+    font-family: verdana, Arial, helvetica, ms Sans-Serif;
+    font-size: x-small;
+}
+.celda14
+{
+    font-family: verdana, Arial, helvetica, ms Sans-Serif;
+    font-size: x-small;
+    height: 14px;
+    text-align: right;
+}
+
+.ModalWindow
+{
+    border: 1px solid black;
+    background: #f0f0f0;
+    padding: 0px 10px 10px 10px;
+    position: absolute;
+}
+
+.modalPopup
+{
+    background-color: #ffffdd;
+    border-width: 3px;
+    border-style: solid;
+    border-color: Gray;
+    padding: 3px;
+    width: 250px;
+}
+
+    .modalPopup p
+    {
+        padding: 5px;
+    }
+
+.tablaTipo1
+{
+    font-family: Verdana, Arial, helvetica, MS Sans-Serif;
+    font-size: x-small;
+    text-align: right;
+}
+
+.tablaTipo2
+{
+    font-family: Verdana, Arial, helvetica, MS Sans-Serif;
+    font-size: small;
+    width: 75%;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+}
+
+#divAgregarEnca
+{
+    background-color: #efefef;
+    padding: .3em 1em .4em 1em;
+    border-bottom: 1px solid #7088b7;
+    border-top: 1px solid #7088b7;
+    color: #000;
+    display: block;
+}
+
+#divDetallesEnca
+{
+    background-color: #efefef;
+    padding: .3em 1em .4em 1em;
+    border-bottom: 1px solid #7088b7;
+    border-top: 1px solid #7088b7;
+    color: #000;
+    display: block;
+}
+
+#divEncaComentarios
+{
+    background-color: #efefef;
+    padding: .3em 1em .4em 1em;
+    border-bottom: 1px solid #7088b7;
+    border-top: 1px solid #7088b7;
+    color: #000;
+    display: block;
+    font-family: Verdana;
+    font-size: small;
+}
+
+#divAgregarEmpleados
+{
+    padding-top: 20px;
+    height: 400px;
+    position: relative;
+}
+
+#divOtro
+{
+    clear: both;
+}
+
+.izq
+{
+    float: left;
+}
+
+.blok
+{
+    display: block;
+}
+
+.calendar
+{
+    background-color: #FFFFCC;
+    border-color: #FFCC66;
+    border-width: 1px;
+    font-family: Verdana;
+    font-size: 8pt;
+    height: 180px;
+    width: 200px;
+    position: absolute;
+}
+
+.pgr1
+{
+    background: #424242 url(grd_pgr.png);
+}
+
+.tbx_Mayusculas
+{
+    font-family: verdana, Arial, helvetica, ms Sans-Serif;
+    font-size: x-small;
+    height: 14px;
+    text-transform: uppercase;
+}
+
+
+#LoginContra
+{
+	width: 540px;
+	font-family: Trebuchet MS;
+    font-weight: bold;
+    font-size: small;
+    border: solid 1px #867044;
+}
+
+    #LoginContra .lbl_mensaje
+    {
+        color: #ff0000;
+    }
+
+	.ul_efect2{
+    font-size: 14px;
+    color: #232323;
+    padding: 0;
+	list-style-image:url(Imagenes/li.jpg);
+    list-style-position: inside;
+	text-align:left;
+	}
+
+
+#LoginContra , .card
+{
+	background-color:#C0A062;
+    background:#C0A062;
+    background: -webkit-linear-gradient(left,rgba(192,160,98,0),rgba(192,160,98,1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,rgba(192,160,98,0),rgba(192,160,98,1)); /*Opera 11.1-12*/
+    background: linear-gradient(to top, rgba(192,160,98,0), rgba(192,160,98,1));/*Standard*/
+    background:-moz-linear-gradient(to top, rgba(192,160,98,0), rgba(192,160,98,1));/*Fx 3.6-15*/
+	color: #000000;
+	text-align: center;
+}
+
+
+/*-----nuevo login----------*/
+
+.card-container.card {
+    max-width: 360px;
+}
+
+.card {
+	padding: 10px 15px 10px;
+    margin: 0 auto 25px;
+    margin-top: 30px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.btn_aceptar
+{
+	padding: 10px 16px;
+	color: #000000;
+	font-weight:bold;
+	background-color: #D2BC91;
+	border-color: #D2BC91;
+	width: 100%;
+	font-size: 14px;
+	line-height: 1.3333333;
+	border-radius: 6px;
+	-moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.btn_aceptar:hover,
+.btn_aceptar:active,
+.btn_aceptar:focus {
+	background-color:#C0A062;
+}
+
+.profile-img-card
+{
+	width: 330px;
+	height: 40px;
+	font-size:55px; 
+	margin: 0 auto 10px;
+	display:block;
+	padding-top:25px;
+	color:#000000;
+	font-family:Stencil,Verdana,sans-serif;
+	text-align:center; 
+	vertical-align:middle;
+}
+
+.form-control {
+	max-width:256px;
+    height: 36px;
+	width:100%;
+	font-size:large;
+    border: 1px solid #d1d7da;
+    border-radius: 3px;
+	 background-color:#FFFFCC;
+    margin-bottom: 12px;
+    box-shadow: none;
+}
+/*---------fin nuevo login-----------*/
+
+.Botoncerrar
+{
+    border: 0;
+    top: 0px;
+    right: 0px;
+    float: right;
+}
+
+.fuenteLogin
+{
+    font-family: Arial;
+	font-style:italic;
+}
+
+.gv_general
+{
+    background-color: #FFFFFF;
+    margin:10px 0 10px 0;
+    border: 1px solid;
+    border-color: #867044;
+    border-collapse: collapse;
+    font-family: Verdana,Arial;
+    font-size: x-small;
+    color: #000000;
+}
+
+    .gv_general tr.Encabezado_gv
+    {
+        color: #FFFFFF;
+        background-color: #867044; 
+        font-size:small; /* x-small;*/
+   }
+	.gv_general tr.Paginado_gv
+    {
+        color: #FFFFFF; 
+        background-color:#867044; 
+        Font-Size: medium; 
+        font-weight:bold;
+
+
+     }
+    .gv_general a
+
+    {
+        color:#000000; 
+        text-decoration:none; 
+        padding:2px 5px 2px 5px;
+        font-weight:400;
+    }
+	.gv_general tr.FilaSeleccionada_gv
+    {
+        background-color: #c0a062; 
+        color: #000000;
+    }
+    .gv_general tr.rowHover:hover
+    {
+         
+       background-color: #ebd195; 
+    }
+
+.RiaSeguimiento
+{
+    background-color: #867044;
+    border-color: #867044;
+    color: #ffffff;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Verdana,Arial;
+    font-size: 11px;
+    font-weight: bold;
+}
+    
+/*------CALENDARIO DORADO------*/
+
+.calendarioAjax
+{
+     width: 70px;
+}
+
+    .calendarioAjax .ajax__calendar_container
+    {
+        background-color: White;
+        border: solid 1px #a49268;
+    }
+    .calendarioAjax .ajax__calendar_header
+    {
+        background-color: #ebd195;
+    }
+    .calendarioAjax .ajax__calendar_title
+    {
+        color: black;
+        padding-top: 2px;
+    }
+    .calendarioAjax .ajax__calendar_body
+    {
+        border: solid 1px #cccccc;
+    }
+    .calendarioAjax .ajax__calendar_dayname
+    {
+        text-align: center;
+        font-weight: bold;
+        margin: 2px 0 2px 0;
+        background-color: #ebd195;
+    }
+    .calendarioAjax .ajax__calendar_days
+    {
+        text-align: center;
+        font-weight: bold;
+        border-width: 1px;
+        border-color: #bbbbbb;
+        margin: 0 0 0 0;
+        padding: 2px 2px 2px 2px;
+    }
+    .calendarioAjax .ajax__calendar_day
+    {
+        text-align: center;
+        background-color: White;
+    }
+
+    .calendarioAjax .ajax__calendar_other,
+    .ajax__calendar_hover,
+    .ajax__calendar_today,
+    .ajax__calendar_hover
+    {
+        color: #bbbbbb;
+     }
+
+    .calendarioAjax .ajax__calendar_footer
+    {
+        color: #564111;
+    }
+
+.buttonU {
+    background-color: #867044; /* Green */
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttonB {
+    background-color: #867044; /* Green */
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #867044; /* Green */
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

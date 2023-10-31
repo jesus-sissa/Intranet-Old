@@ -1,0 +1,77 @@
+﻿<%@ Master Language="VB" Inherits="IntranetSIAC.MasterPage"
+    CodeBehind="MP_Principal.master.vb" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+       <link rel="icon" href="Imagenes/fav.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+      <link rel="stylesheet" type="text/css" href="App_Themes/Dorado/Dorado.css" />
+    <title>Intranet SIAC</title>
+
+</head>
+
+<body>
+
+    <form id="Form1" runat="server">
+        <asp:ToolkitScriptManager ID="ToolScriptManager1" runat="server" EnableScriptGlobalization="True" AsyncPostBackTimeout="300" />
+
+        <div id="div_Encabezado" class="Encabezado_MP" runat="server">
+            <table style="width: 100%;">
+                <tr>
+                    <td class="LabelINTRANET">
+                        <asp:Label ID="lbl_IntranetSIAC" runat="server" Text="INTRANET SIAC">
+                        </asp:Label>
+                    </td>
+
+                    <td  class="labelNombrePagina">
+                        <asp:Label ID="lbl_NombrePagina" runat="server"></asp:Label>
+                    </td>
+
+                    <td class="LabelUsuario">
+                        <asp:Label ID="lbl_usuario" runat="server" Text="Usuario: "></asp:Label>
+                    </td>
+
+                    <td class="NombreUsuario">
+                        <asp:Label runat="server" ID="lbl_nombreUsuario"></asp:Label>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+        <hr style="border-color: gray; height: 2px; background-color: gray" />
+
+        <div id="div_contenedorMenu" runat="server" class="ContenedorMenuDiv_MP">
+            <div class="MenuDiv" runat="server">
+                <asp:Menu ID="mnu_Navegacion" runat="server"
+                    StaticDisplayLevels="1"
+                    Orientation="horizontal"
+                    MaximumDynamicDisplayLevels="2"
+                    DynamicHorizontalOffset="1"
+                    StaticSubMenuIndent="1px"
+                    StaticPopOutImageUrl="~/Imagenes/downarrow2.gif">
+                    <LevelMenuItemStyles>
+                        <asp:MenuItemStyle CssClass="MenuPrincipal_MP" />
+                        <asp:MenuItemStyle CssClass="SubMenus" />
+                    </LevelMenuItemStyles>
+                </asp:Menu>
+
+            </div>
+
+            <div id="div_Cerrarsesion" runat="server" class="CerrarsesionDiv">
+                <span runat="server" style="float: right; margin-top: 13px; margin-right: 10px">
+                    <asp:LoginStatus ID="ls_login" runat="server" CssClass="statusLogin" LoginText="ENTRAR" LogoutText="SALIR" />
+                </span>
+            </div>
+        </div>
+
+        <div id="div_Contenedor_MP" class="ContenedorPrincipal_MP">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+</html>

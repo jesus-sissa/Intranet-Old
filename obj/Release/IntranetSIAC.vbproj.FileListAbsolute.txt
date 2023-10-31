@@ -1,0 +1,79 @@
+C:\SIAC\INTRANETSIAC\IntranetSIAC\bin\IntranetSIAC.dll
+C:\SIAC\INTRANETSIAC\IntranetSIAC\bin\IntranetSIAC.pdb
+C:\SIAC\INTRANETSIAC\IntranetSIAC\bin\IntranetSIAC.xml
+C:\SIAC\INTRANETSIAC\IntranetSIAC\bin\IntranetSIAC.dll.CodeAnalysisLog.xml
+C:\SIAC\INTRANETSIAC\IntranetSIAC\bin\IntranetSIAC.dll.lastcodeanalysissucceeded
+C:\SIAC\INTRANETSIAC\IntranetSIAC\obj\Release\IntranetSIAC.Resources.resources
+C:\SIAC\INTRANETSIAC\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.GenerateResource.Cache
+C:\SIAC\INTRANETSIAC\IntranetSIAC\obj\Release\IntranetSIAC.dll
+C:\SIAC\INTRANETSIAC\IntranetSIAC\obj\Release\IntranetSIAC.xml
+C:\SIAC\INTRANETSIAC\IntranetSIAC\obj\Release\IntranetSIAC.pdb
+C:\Users\juan.cepeda\Documents\Proyectos\BK_Codigo Fuente SIAC V1\Intranet2012\IntranetSIAC\bin\IntranetSIAC.dll.config
+C:\Users\juan.cepeda\Documents\Proyectos\BK_Codigo Fuente SIAC V1\Intranet2012\IntranetSIAC\bin\IntranetSIAC.dll
+C:\Users\juan.cepeda\Documents\Proyectos\BK_Codigo Fuente SIAC V1\Intranet2012\IntranetSIAC\bin\IntranetSIAC.pdb
+C:\Users\juan.cepeda\Documents\Proyectos\BK_Codigo Fuente SIAC V1\Intranet2012\IntranetSIAC\bin\IntranetSIAC.xml
+C:\Users\juan.cepeda\Documents\Proyectos\BK_Codigo Fuente SIAC V1\Intranet2012\IntranetSIAC\bin\IntranetSIAC.dll.CodeAnalysisLog.xml
+C:\Users\juan.cepeda\Documents\Proyectos\BK_Codigo Fuente SIAC V1\Intranet2012\IntranetSIAC\bin\IntranetSIAC.dll.lastcodeanalysissucceeded
+C:\Users\juan.cepeda\Documents\Proyectos\BK_Codigo Fuente SIAC V1\Intranet2012\IntranetSIAC\obj\Release\IntranetSIAC.vbprojAssemblyReference.cache
+C:\Users\juan.cepeda\Documents\Proyectos\BK_Codigo Fuente SIAC V1\Intranet2012\IntranetSIAC\obj\Release\IntranetSIAC.Resources.resources
+C:\Users\juan.cepeda\Documents\Proyectos\BK_Codigo Fuente SIAC V1\Intranet2012\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.GenerateResource.cache
+C:\Users\juan.cepeda\Documents\Proyectos\BK_Codigo Fuente SIAC V1\Intranet2012\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\juan.cepeda\Documents\Proyectos\BK_Codigo Fuente SIAC V1\Intranet2012\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.CopyComplete
+C:\Users\juan.cepeda\Documents\Proyectos\BK_Codigo Fuente SIAC V1\Intranet2012\IntranetSIAC\obj\Release\IntranetSIAC.dll
+C:\Users\juan.cepeda\Documents\Proyectos\BK_Codigo Fuente SIAC V1\Intranet2012\IntranetSIAC\obj\Release\IntranetSIAC.xml
+C:\Users\juan.cepeda\Documents\Proyectos\BK_Codigo Fuente SIAC V1\Intranet2012\IntranetSIAC\obj\Release\IntranetSIAC.pdb
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\IntranetSIAC\bin\IntranetSIAC.dll.config
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\IntranetSIAC\bin\IntranetSIAC.dll
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\IntranetSIAC\bin\IntranetSIAC.pdb
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\IntranetSIAC\bin\IntranetSIAC.xml
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\IntranetSIAC\bin\IntranetSIAC.dll.CodeAnalysisLog.xml
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\IntranetSIAC\bin\IntranetSIAC.dll.lastcodeanalysissucceeded
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\IntranetSIAC\obj\Release\IntranetSIAC.Resources.resources
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.GenerateResource.cache
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.CopyComplete
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\IntranetSIAC\obj\Release\IntranetSIAC.dll
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\IntranetSIAC\obj\Release\IntranetSIAC.xml
+C:\Users\juan.cepeda\Desktop\Desarrollo\Codigo Fuente SIAC V1 - 2018\IntranetSIAC\obj\Release\IntranetSIAC.pdb
+C:\Users\jesus.ortega\Desktop\Repositorio Local\RemisionDigital\IntranetSIAC\bin\IntranetSIAC.dll.config
+C:\Users\jesus.ortega\Desktop\Repositorio Local\RemisionDigital\IntranetSIAC\bin\IntranetSIAC.dll
+C:\Users\jesus.ortega\Desktop\Repositorio Local\RemisionDigital\IntranetSIAC\bin\IntranetSIAC.pdb
+C:\Users\jesus.ortega\Desktop\Repositorio Local\RemisionDigital\IntranetSIAC\bin\IntranetSIAC.xml
+C:\Users\jesus.ortega\Desktop\Repositorio Local\RemisionDigital\IntranetSIAC\bin\IntranetSIAC.dll.CodeAnalysisLog.xml
+C:\Users\jesus.ortega\Desktop\Repositorio Local\RemisionDigital\IntranetSIAC\bin\IntranetSIAC.dll.lastcodeanalysissucceeded
+C:\Users\jesus.ortega\Desktop\Repositorio Local\RemisionDigital\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.AssemblyReference.cache
+C:\Users\jesus.ortega\Desktop\Repositorio Local\RemisionDigital\IntranetSIAC\obj\Release\IntranetSIAC.Resources.resources
+C:\Users\jesus.ortega\Desktop\Repositorio Local\RemisionDigital\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.GenerateResource.cache
+C:\Users\jesus.ortega\Desktop\Repositorio Local\RemisionDigital\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\jesus.ortega\Desktop\Repositorio Local\RemisionDigital\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.CopyComplete
+C:\Users\jesus.ortega\Desktop\Repositorio Local\RemisionDigital\IntranetSIAC\obj\Release\IntranetSIAC.dll
+C:\Users\jesus.ortega\Desktop\Repositorio Local\RemisionDigital\IntranetSIAC\obj\Release\IntranetSIAC.xml
+C:\Users\jesus.ortega\Desktop\Repositorio Local\RemisionDigital\IntranetSIAC\obj\Release\IntranetSIAC.pdb
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\InvetarioRequest\IntranetSIAC\bin\IntranetSIAC.dll.config
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\InvetarioRequest\IntranetSIAC\bin\IntranetSIAC.dll
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\InvetarioRequest\IntranetSIAC\bin\IntranetSIAC.pdb
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\InvetarioRequest\IntranetSIAC\bin\IntranetSIAC.xml
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\InvetarioRequest\IntranetSIAC\bin\IntranetSIAC.dll.CodeAnalysisLog.xml
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\InvetarioRequest\IntranetSIAC\bin\IntranetSIAC.dll.lastcodeanalysissucceeded
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\InvetarioRequest\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.AssemblyReference.cache
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\InvetarioRequest\IntranetSIAC\obj\Release\IntranetSIAC.Resources.resources
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\InvetarioRequest\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.GenerateResource.cache
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\InvetarioRequest\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\InvetarioRequest\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.CopyComplete
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\InvetarioRequest\IntranetSIAC\obj\Release\IntranetSIAC.dll
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\InvetarioRequest\IntranetSIAC\obj\Release\IntranetSIAC.xml
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\InvetarioRequest\IntranetSIAC\obj\Release\IntranetSIAC.pdb
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\IntranetSIAC\bin\IntranetSIAC.dll.config
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\IntranetSIAC\bin\IntranetSIAC.dll
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\IntranetSIAC\bin\IntranetSIAC.pdb
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\IntranetSIAC\bin\IntranetSIAC.xml
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\IntranetSIAC\bin\IntranetSIAC.dll.CodeAnalysisLog.xml
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\IntranetSIAC\bin\IntranetSIAC.dll.lastcodeanalysissucceeded
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.AssemblyReference.cache
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\IntranetSIAC\obj\Release\IntranetSIAC.Resources.resources
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.GenerateResource.cache
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.CoreCompileInputs.cache
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\IntranetSIAC\obj\Release\IntranetSIAC.vbproj.CopyComplete
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\IntranetSIAC\obj\Release\IntranetSIAC.dll
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\IntranetSIAC\obj\Release\IntranetSIAC.xml
+C:\Users\jesus.ortega\Desktop\RESPALDOJ\SISSA\PROYECTOS\IntranetSIAC\obj\Release\IntranetSIAC.pdb

@@ -1,0 +1,152 @@
+﻿Imports IntranetSIAC.Cn_Soporte
+Imports IntranetSIAC.Cn_Login
+Imports IntranetSIAC.FuncionesGlobales
+Imports System.Data
+Imports System.Web.UI.Page
+
+Partial Class JornadasConsulta
+    Inherits BasePage
+
+    Dim EmpleadoID As Integer = 0
+    Dim TipoFalta As Integer = 0
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If IsPostBack Then Exit Sub
+        
+        Dim dt_Empleados As DataTable = fn_Faltas_ObtenerEmpleados(Session("SucursalID"), Session("DepartamentoID"), Session("UsuarioID"))
+        fn_LlenarDDL_VariosCampos(ddl_Empleado, dt_Empleados, "CveNombre", "Id_Empleado")
+        MuestraJornadasVacio()
+
+        Dim Columnas As Byte
+        Dim Gv_Nombres() As GridView = {gv_Jornadas}
+
+        For j As Byte = 0 To Gv_Nombres.Length - 1
+            Columnas = Gv_Nombres(j).Columns.Count
+
+            For i As Byte = 0 To Columnas - 1
+                Gv_Nombres(j).Columns(i).HeaderStyle.HorizontalAlign = HorizontalAlign.Left
+            Next
+        Next
+    End Sub
+
+    Sub MuestraJornadasVacio()
+        gv_Jornadas.DataSource = fn_CreaGridVacio("Id_Jornada,Clave,Nombre,Fecha,Dia,Jornada1,Jornada2,Turno,Checada1,Checada2,Checada3,Checada4,Retardo,HorasExtra,Recupera,TipoFalta")
+        gv_Jornadas.DataBind()
+        udp_Lista.Update() 'actualiza el updatepanel
+    End Sub
+
+    Protected Sub chk_Empleados_CheckedChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles chk_Empleados.CheckedChanged
+        Call MuestraJornadasVacio()
+        ddl_Empleado.Enabled = Not chk_Empleados.Checked
+        ddl_Empleado.SelectedValue = 0
+    End Sub
+
+    Protected Sub chk_TipoFalta_CheckedChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles chk_TipoFalta.CheckedChanged
+        Call MuestraJornadasVacio()
+        ddl_TipoFalta.Enabled = Not chk_TipoFalta.Checked
+        ddl_TipoFalta.SelectedValue = 0
+    End Sub
+
+    Protected Sub ddl_Empleado_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles ddl_Empleado.SelectedIndexChanged
+        Call MuestraJornadasVacio()
+    End Sub
+
+    Protected Sub ddl_TipoFalta_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles ddl_TipoFalta.SelectedIndexChanged
+        Call MuestraJornadasVacio()
+    End Sub
+
+    Protected Sub btn_Mostrar_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btn_Mostrar.Click
+        If tbx_FechaIni.Text = "" Then
+                 fn_Alerta("Seleccione la Fecha Inicio.")
+            Exit Sub
+        End If
+
+        If tbx_FechaFin.Text = "" Then
+                 fn_Alerta("Seleccione la Fecha Fin.")
+            Exit Sub
+        End If
+
+        If CDate(tbx_FechaFin.Text) < CDate(tbx_FechaIni.Text) Then
+               fn_Alerta("La Fecha Fin no puede ser menor que la Fecha Inicio.")
+            Exit Sub
+        End If
+
+        If ddl_Empleado.SelectedIndex = 0 And Not chk_Empleados.Checked Then
+              fn_Alerta("Seleccione el Empleado.")
+            Exit Sub
+        Else
+            If chk_Empleados.Checked Then
+                EmpleadoID = 0
+            Else
+                EmpleadoID = ddl_Empleado.SelectedValue
+            End If
+        End If
+        If ddl_TipoFalta.SelectedIndex = 0 And Not chk_TipoFalta.Checked Then
+              fn_Alerta("Seleccione el Tipo de Falta.")
+
+            Exit Sub
+        Else
+            If chk_TipoFalta.Checked Then
+                TipoFalta = 0
+            Else
+                TipoFalta = ddl_TipoFalta.SelectedValue
+            End If
+        End If
+        gv_Jornadas.PageIndex = 0
+        Call LlenarJornadas()
+
+    End Sub
+
+    Sub LlenarJornadas()
+        Dim i As Integer = 0
+        Dim cant As Integer = 0
+        Dim TipoFalta As Integer = 0
+
+        Dim dt As DataTable = fn_JornadasConsulta_LlenarLista(Session("SucursalID"), Session("UsuarioID"), Session("DepartamentoID"), ddl_Empleado.SelectedValue, CDate(tbx_FechaIni.Text), CDate(tbx_FechaFin.Text), ddl_TipoFalta.SelectedValue)
+
+        If dt IsNot Nothing Then
+            If dt.Rows.Count > 0 Then
+                gv_Jornadas.DataSource = dt
+                gv_Jornadas.DataBind()
+
+                For i = 0 To (gv_Jornadas.Rows.Count - 1)
+                    TipoFalta = gv_Jornadas.DataKeys(i).Values("TipoFalta")
+                    If TipoFalta >= 0 Then
+                        Select Case TipoFalta
+                            Case 0
+                                gv_Jornadas.Rows(i).Cells(7).Text = "X"
+                            Case 1
+                                gv_Jornadas.Rows(i).Cells(8).Text = "X"
+                                gv_Jornadas.Rows(i).ForeColor = Drawing.Color.Red
+                            Case 2
+                                gv_Jornadas.Rows(i).Cells(9).Text = "X"
+                                gv_Jornadas.Rows(i).ForeColor = Drawing.Color.DeepSkyBlue
+                            Case 3
+                                gv_Jornadas.Rows(i).Cells(10).Text = "X"
+                                gv_Jornadas.Rows(i).ForeColor = Drawing.Color.LightSeaGreen
+                            Case 4
+                                gv_Jornadas.Rows(i).Cells(11).Text = "X"
+                                gv_Jornadas.Rows(i).ForeColor = Drawing.Color.SaddleBrown
+                        End Select
+                    End If
+                Next
+                udp_Lista.Update() '26/10/2012
+            Else
+                Call MuestraJornadasVacio()
+            End If
+        End If
+    End Sub
+
+    Protected Sub gv_Jornadas_PageIndexChanging(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewPageEventArgs) Handles gv_Jornadas.PageIndexChanging
+        gv_Jornadas.PageIndex = e.NewPageIndex
+        Call LlenarJornadas()
+    End Sub
+
+    Protected Sub tbx_FechaIni_TextChanged(sender As Object, e As EventArgs) Handles tbx_FechaIni.TextChanged
+        Call MuestraJornadasVacio()
+    End Sub
+
+    Protected Sub tbx_FechaFin_TextChanged(sender As Object, e As EventArgs) Handles tbx_FechaFin.TextChanged
+        Call MuestraJornadasVacio()
+    End Sub
+End Class
